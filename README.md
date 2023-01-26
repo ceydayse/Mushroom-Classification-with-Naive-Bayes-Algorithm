@@ -31,9 +31,11 @@ We can also look at ROC-AUC graphs in rapidminer program. ROC-AUC curves are a p
 # CODES
 
 First of all, we import the following libraries.
+
  ![image](https://user-images.githubusercontent.com/73853133/214951937-962f4f73-fe2e-4432-af1e-900fdfe7dcc7.png)
 
 Then we download and import our data set.
+
  ![image](https://user-images.githubusercontent.com/73853133/214951927-355641eb-5d6b-441c-9f72-5cbd7f326e5d.png)
 
 Our data consists of missing data with '?' as value. All the missing values are from a single column. We delete them with the following code.
@@ -48,13 +50,14 @@ We write our probability code for probability. Then we define classify. In this 
 
 ![image](https://user-images.githubusercontent.com/73853133/214951821-34880147-ea80-46fe-8fa0-bf2872d2c69b.png)
 
-# Results
+# RESULTS
 
 The results of our project are given below. 
 When we run the code, training accuracy 99.59% 
+
 ![image](https://user-images.githubusercontent.com/73853133/214952022-2dc4afa5-7585-4def-a39d-c7bc4719428a.png)
 
-# Results
+# CONCLUSIONS
 In this project, we tried to classify mushrooms using the Naive Bayes classification algorithm with the Mushroom Dataset. The program has successfully achieved its purpose. In our Run result, the training accuracy was 99.59%. Naive Bayes classification algorithm is relatively simple and computationally efficient, making it a good choice for large datasets or real-time applications. Additionally, it can handle missing data and can be easily trained using a small amount of labeled data. 
 In conclusion, Naive Bayes is a fast and simple algorithm that can be used for classification tasks and is particularly well suited for text classification. It performs well with small data set and does not require large amount of data for training.
 
