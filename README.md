@@ -19,15 +19,25 @@ In our project, we will use the RapidMiner program developed for machine learnin
 ![image](https://user-images.githubusercontent.com/73853133/214951527-05390f45-f945-44d4-bb8a-e9232a497aae.png)
 
 The table we get when we upload our mushroom data to Rapidminer is given
- 
+
+ ![image](https://user-images.githubusercontent.com/73853133/214952494-fa3e3739-3369-47c7-8d4e-008653b9aa30.png)
+
 In Rapidminer, we add the read CSV operator from the operators section in the design section. Then we add the naive bayes operator by typing Naive Bayes in the search section. Finally, we establish connections between operators by adding cross validation.
+
+![image](https://user-images.githubusercontent.com/73853133/214952541-d2af8b18-c041-403c-a963-c0d70ce5f42f.png)
  
 Then we create a training and testing section to set up the cross validation. We add the naive bayer operator to the train part and the apply model and performance operators to the testing part. When we start the execution, we reach the conclusion.
+
+![image](https://user-images.githubusercontent.com/73853133/214952627-418d879b-d18a-4f1b-a63e-68bb389fbc70.png)
  
 When we click on the performance section on the program, we can see the results. Our accuracy value in rapidminer is 99.58%. We are given our true e and true p values. The Recall value is a metric that shows how many of the transactions we need to predict as positive are positive.
+
+![image](https://user-images.githubusercontent.com/73853133/214952663-48f61881-9340-4081-9a76-1c78b0fd3b22.png)
  
 We can also look at ROC-AUC graphs in rapidminer program. ROC-AUC curves are a performance metric for classification problems at various thresholds. ROC is a probability curve and the area under it, AUC, represents the degree or measure of separability.
  
+ ![image](https://user-images.githubusercontent.com/73853133/214952683-39f79c72-e492-4fd4-bc40-41c121a7c2e2.png)
+
 # CODES
 
 First of all, we import the following libraries.
